@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83918488603ac45409915df79f738e86, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  orderItemsDelay: 0.5
+  createItemDelay: 0.065
+  createTileDelay: 0.1
+  startBoardDelay: 0.25
+  removeStepDelay: 0.3
+  removeItemDelay: 0.05
+  starsPercent3: 0.5
+  starsPercent2: 0.25
+  starsPercent1: 0.05
+  tilePrefab: {fileID: 6021125059131305999, guid: 4d61ba6839053254c85f3f0d8038e3ef, type: 3}
+  tileFrozen: {fileID: 11400000, guid: e0716ebe34b5c95439b680c209a91a05, type: 2}
+  allNormalItems:
+  - {fileID: 11400000, guid: a8c3e56129d9e9f46acd359c657b96a9, type: 2}
+  - {fileID: 11400000, guid: 49deba4d47d437e469ebfc3f8de4647e, type: 2}
+  - {fileID: 11400000, guid: 2cc0429dd084e404ca520d7df249d88b, type: 2}
+  - {fileID: 11400000, guid: 1880ce957b5c00b4999cc3ef86545cf4, type: 2}
+  - {fileID: 11400000, guid: ad084111ede0eaa49882fb0c02201963, type: 2}
+  allSpecialItems:
+  - {fileID: 11400000, guid: 104fd85351d4a3841ae027dca2d18085, type: 2}
+  - {fileID: 11400000, guid: 01b823ebdc9e4d0458bb08083cc98f67, type: 2}
+  - {fileID: 11400000, guid: dfaab87164b5b284b906c0e8fd76edc3, type: 2}
+  - {fileID: 11400000, guid: 559b071becbe7a64f87f2a7026de8e49, type: 2}
+  - {fileID: 11400000, guid: 251a0a9661b6ec64aaf5e6010e8a90dd, type: 2}
+  - {fileID: 11400000, guid: 8e3de77fbb61bce4bbbf76856c9cba9a, type: 2}
+  - {fileID: 11400000, guid: bdcf3ee3c3fb0eb4da7e4a62832a4e3b, type: 2}
+  - {fileID: 11400000, guid: 4381033e97ba41c47b43e0649b9e6e7d, type: 2}
+  - {fileID: 11400000, guid: bfb3d6d694d1dc942964661977b59420, type: 2}
+  - {fileID: 11400000, guid: d00b27fca09409b4a8a8262477ea9f62, type: 2}
+  - {fileID: 11400000, guid: 277c0e478a704734d9dc5a58093cc14e, type: 2}
+  - {fileID: 11400000, guid: b7db705158d6be94dacef6a708f92c2e, type: 2}
+  - {fileID: 11400000, guid: a37e3e1b7390ccc49ba1e2545f4f3066, type: 2}
+  - {fileID: 11400000, guid: 19a293d099fb22e43a78d978e387784d, type: 2}
+  - {fileID: 11400000, guid: 36de5e18d8b448149bbecd24f3ddabc7, type: 2}
+  itemsAtCombo:
+  - itemName: 
+    isJoker: 0
+  - itemName: 
+    isJoker: 0
+  - itemName: 
+    isJoker: 0
+  - itemName: 
+    isJoker: 0
+  - itemName: Joker
+    isJoker: 1
+  - itemName: Grenade
+    isJoker: 0
+  - itemName: Grenade
+    isJoker: 1
+  - itemName: Lightning
+    isJoker: 0
+  - itemName: Lightning
+    isJoker: 1
+  tileColorA: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+  tileColorB: {r: 0.122641504, g: 0.122641504, b: 0.122641504, a: 1}
+  soundMenuSelect: {fileID: 8300000, guid: aa6443a232284614d93d76e4abe0ac9f, type: 3}
+  soundGameWin: {fileID: 8300000, guid: 99bf3a57de54cf14fa2af87149809f6e, type: 3}
+  soundGameLose: {fileID: 8300000, guid: 49e8d179c50e2c04f8e346de164b24e8, type: 3}
+  soundItemCreate: {fileID: 8300000, guid: 22414f22820df2b4390381a10176fd2e, type: 3}
+  soundItemCollect: {fileID: 8300000, guid: 22e13868ad8b1ad4bb139c1c133dff68, type: 3}
+  soundReorder: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
+  soundTeleport: {fileID: 8300000, guid: 33b86a6ce3f0d034fab1246cf24a715f, type: 3}
+  soundItemSelects:
+  - {fileID: 8300000, guid: b97dad82b838cb84a860bed6ec1d596e, type: 3}
+  - {fileID: 8300000, guid: 1ca79c7fc933f3649bd561fbc2118582, type: 3}
+  - {fileID: 8300000, guid: 2ff5f5bf9e663f849ae438026ae0fc23, type: 3}
+  - {fileID: 8300000, guid: e2a3a13e26f398144a2b530d0654e221, type: 3}
+  - {fileID: 8300000, guid: 4e3eee6edad6074449c0983c8e439886, type: 3}
+  - {fileID: 8300000, guid: b05cb5040fde0d34f8827835fbf7cd34, type: 3}
+  - {fileID: 8300000, guid: 2fc6e4c53e3d14a4fa54cfc776900cf4, type: 3}
+  - {fileID: 8300000, guid: dee5d40ec4cc0fa48b2a7e8947eb2b9b, type: 3}
+  - {fileID: 8300000, guid: cadd77fce69e72c4082154b95768c4bf, type: 3}
+  - {fileID: 8300000, guid: ea635eb936edc1c42a6372f61a9e3805, type: 3}
+  - {fileID: 8300000, guid: 892461829280e014f841e39af53c1303, type: 3}
+  - {fileID: 8300000, guid: 9e8a3a4808861204ca2d5e207ee7debe, type: 3}
+  - {fileID: 8300000, guid: 99e6a5672564ed14da9f60d5ee6f0283, type: 3}
+  - {fileID: 8300000, guid: 769d8ea89bab2694eac3b235bf2a5dea, type: 3}
+  - {fileID: 8300000, guid: 501115422024c93418b7dd7e077d9357, type: 3}
+  - {fileID: 8300000, guid: 483db6dda84106f4aa32f8931992dba4, type: 3}
+  soundMusics:
+  - {fileID: 8300000, guid: d3ea5fdbe84da644982f85d93e3d156f, type: 3}
+  musicVolumeInGame: 0.4
+  musicVolumeGameOver: 0.1
